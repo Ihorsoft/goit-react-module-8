@@ -1,10 +1,3 @@
-/* import css from "./Layout.module.css";
-
-export const Layout = ({ children }) => {
-  return <main className={css.container}>{children}</main>;
-};
- */
-
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import { AppBar } from "./AppBar/AppBar";
